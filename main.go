@@ -33,6 +33,7 @@ func (d xy) XY(i int) (x, y float64) {
 // no encontre una funcion de sumatorias en gonum
 // resultXX --> sum((x-mediaX)*(y-mediay))
 // resultXX --> sum((x-mediax)^2)
+// ***ALTAMENTE MEJORABLE EN LA IMPLEMENTACION***
 func summatory(arrayX []float64, arrayY []float64, meanX float64, meanY float64) (float64, float64) {
 	resultXX := 0.0
 	resultXY := 0.0
