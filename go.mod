@@ -1,4 +1,4 @@
-module github.com/bigmario/linear_regression
+module github.com/bigmario/linear_regression_GO
 
 go 1.16
 
